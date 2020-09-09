@@ -9,6 +9,7 @@ class Card
     return "#{@suit}  of #{@number}"
   end
 
+  
 # J,Q,Kの処理
 def count
   if @number == "J" || @number == "Q" || @number == "K"
